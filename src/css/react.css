@@ -1,0 +1,221 @@
+.slider-card-padding {
+  padding-left: 1px;
+}
+
+/* ------------------------Landing-Page----------------- */
+.iphone-bg-img {
+  background-image: url("../assets/images/mockup/app-placeholder2.jpg");
+  background-size: 100%;
+}
+.mac-bg-img {
+  background-image: url("../assets/images/mockup/mac-placeholder.jpg");
+  background-size: 100%;
+}
+.iphoneHalf-bg-img {
+  background-image: url("../assets/images/mockup/app-placeholder3.jpg") !important;
+  background-size: 100%;
+}
+.landing-video {
+  width: 200px;
+  height: 355.55px;
+  border-radius: 20px;
+}
+/* -----------------left side bar=-----------------*/
+.main-sidenav-background-div {
+  background-image: url("../assets/images/bg/01.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* --------------------forgot-password-advance -----------------------*/
+#pswmeter {
+  height: 8px;
+  background-color: #eff2f6;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+/*----------------------- message scroll---------------------------- */
+.chat-tab-list {
+  max-height: 310px !important;
+  overflow-y: hidden;
+}
+
+.chat-tab-list:hover {
+  overflow-y: auto;
+}
+
+.chat-tab-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-tab-list::-webkit-scrollbar-thumb {
+  background-color: rgb(224, 224, 224);
+  border-radius: 10px;
+}
+
+.chat-tab-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.chat-conversation-content {
+  max-height: 295px;
+  overflow-y: auto;
+  position: relative;
+  padding-right: 5px;
+}
+
+.chat-conversation-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-conversation-content::-webkit-scrollbar-thumb {
+  background-color: rgb(224, 224, 224);
+  border-radius: 10px;
+}
+
+.chat-conversation-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/*--------------------------- slider-dots ------------------------------*/
+.slick-dots {
+  bottom: -19px !important;
+}
+.slick-dots li button:before {
+  font-size: 10px !important;
+  color: transparent !important;
+  border: 2px solid black !important;
+  border-radius: 50% !important;
+  width: 13px !important;
+  height: 13px !important;
+}
+/* ---------------property-detail---------- */
+.new-text-section span,
+.new-text-section a {
+  font-size: 12px !important;
+}
+@media (max-width:425px) {
+  .mobile-width{
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*------------ my profile------------- */
+.new-danger-btnn-sec a {
+  color: #d6293e !important;
+}
+.new-danger-btnn-sec:hover a {
+  color: #fff !important;
+}
+.new-data-from-acount-sec {
+  color: #0f6fec;
+  background-color: rgba(15, 111, 236, 0.1);
+  border-radius: 0.4rem;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 3.75px;
+  margin-bottom: 3.75px;
+  padding: 4px 10px;
+}
+.choices .choices__list--multiple .choices__item {
+  background-color: #dddee3 !important;
+  color: #29292e !important;
+}
+.choices[data-type*="select-multiple"] .choices__inner,
+.choices[data-type*="select-one"] .choices__inner {
+  position: relative;
+}
+/* Ensure space for the arrow */
+.choices .choices__inner {
+  padding: 0px !important;
+  border: none !important;
+}
+.choices .choices__input {
+  margin-bottom: 0px !important;
+}
+.choices__item.choices__item--choice.has-no-choices {
+  display: none !important;
+}
+.choices__list.choices__list--dropdown.is-active {
+  display: none !important;
+}
+.choices__input.choices__input--cloned {
+  display: none !important;
+}
+.my-profile-bg-img {
+  background-image: url(../assets/images/bg/05.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* ------event-detail-------- */
+.event-details-bg-img{
+  background-image: url(../assets/images/post/property/image_2025_02_25T11_35_43_643Z.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+}
+/* ---------Add Property-------------- */
+#new-section-upload .dz-image{
+  width: 250px;
+  height: 250px;
+  border-radius: 0px !important;
+}
+#new-section-upload .dz-image img{
+  width: 100%;
+}
+/* --------Groups-------------- */
+/* .avatar-img {
+  width: 32px;
+  height: 32px;
+} */
+.dropzone-default {
+  border: 2px dashed #ece9e9!important;
+  padding: 20px!important;
+  text-align: center!important;
+}
+/* -----------------account--------------------- */
+.choices .choices__list--multiple .choices__item {
+  background-color: #dddee3 !important;
+  color: #29292E !important;
+}
+
+.choices[data-type*=select-multiple] .choices__inner,
+.choices[data-type*=select-one] .choices__inner {
+  position: relative;
+}
+
+/* Add custom dropdown arrow */
+.choices[data-type*=select-one]::after,
+.choices[data-type*=select-multiple]::after {
+  font-family: "Font Awesome 6 Free";
+  content: "\f078";
+  font-weight: 900;
+  font-size: 14px;
+  color: #555;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Rotate arrow when select is open */
+.choices[data-type*=select-one].is-open::after,
+.choices[data-type*=select-multiple].is-open::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.choices .choices__inner {
+  padding: 0.5rem 2.25rem 0.5rem 1rem !important;
+}
+
+.choices .choices__input {
+  margin-bottom: 0px !important;
+}
+.new-cusor-pointer-sec input {
+  margin-right: 5px;
+}

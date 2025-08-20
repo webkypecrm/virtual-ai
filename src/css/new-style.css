@@ -1,0 +1,582 @@
+/* ================================= DEMAND  ===========================================*/
+#feedActionPhoto .form-title {
+    text-align: center;
+}
+#feedActionPhoto .form-group {
+    margin-bottom: 15px;
+}
+#feedActionPhoto  .form-label {
+    display: block;
+    font-weight: bold;
+}
+#feedActionPhoto  .form-input, .form-select, .form-textarea {
+    width: 100%;
+    padding: 8px;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.new-Demand-sec{
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    padding: 10px 15px;
+}
+
+/* .new-Demand-sec {
+    position: relative;
+  
+    background-image: url("../images/post/property/buildings-clear.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+} */
+
+/* .new-Demand-sec::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color:#0f6fec; 
+    z-index: -1;
+} */
+.new-Demand-sec h2{
+color: #1d2c3b;
+    font-size: 18px;
+    font-weight: 500;
+}
+.new-Demand-sec p{
+    font-weight: 500;
+    color: #14191e;
+    font-size: 15px;
+}
+.new-Demand-sec p span{
+    font-weight: 700;
+    font-size: 17px;
+}
+.property-categories img{
+    width: 20px;
+    height: 20px;
+}
+/* .BORDER-DISIGN-SEC{
+    border:1px solid #ccc;
+}
+.new-border-sec{
+    border: 1px solid #ccc !important;
+} */
+.btn-outline-secondary{
+    --bs-btn-border-color:#ccdeef !important;
+    --bs-btn-active-bg:#353a3514 !important;
+    --bs-btn-active-color:#29292e !important;
+ }
+/* ===================================   DEMAN END   ================================================== */
+
+/* ========================================     ADD PRODUCT  ======================================== */
+
+#feedActionVideo .form-title {
+    text-align: center;
+}
+#feedActionVideo .form-group {
+    margin-bottom: 15px;
+}
+#feedActionVideo  .form-label {
+    display: block;
+    font-weight: bold;
+}
+#feedActionVideo  .form-input, .form-select, .form-textarea {
+    width: 100%;
+    padding: 8px;
+   
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.ADD-PROPERTY-sec h3{
+    /* color: #14191e; */
+    font-size: 20px;
+    font-weight: 700;
+}
+.ADD-PROPERTY-sec p{
+    font-weight: 500;
+    font-size: 15px;
+    /* color: #14191e; */
+    margin-bottom: 0px;
+}
+.ADD-PROPERTY-sec p span{
+    font-weight: 700;
+    font-size: 17px;
+}
+/* =====================================   ADD PRODUCT END      ===================================== */  
+
+/* ====================================== proprty Listing    ======================================== */
+.new-ection-for-listing-more-detail{
+    width: 33.33%;
+   padding-left:13px ;
+    border-left: 1px solid #ccc;
+    margin: 8px 0px;
+}
+.new-ection-for-listing-more-detail p{
+    font-weight: 300;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.new-ection-for-listing-more-detail h3{
+    font-weight: 500;
+    font-size: 14px !important;
+    color: #14191e;
+    margin-bottom: 0px;
+}
+.listin-icon-sec{
+    font-size: 20px;
+}
+.locality-name a{
+    text-decoration: none;
+    color: #676A79;
+}
+.property-card {
+   
+    border: 1px solid #ccc;
+   
+    border-radius: 8px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+    /* box-shadow: 2px 2px 10px rgba(0,0,0,0.1); */
+    position: relative;
+}
+/* .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+.hidden-details {
+    display: none;
+}
+.toggel-buttton-parent button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.toggle-button {
+    background-color: #f8f9fa;
+    border-radius: 0px 8px 8px 0px ;
+}
+.priceand-contact-detail{
+    /* background-color: #f8f9fa; */
+}
+.arrow {
+    transition: transform 0.3s ease;
+}
+.rotate {
+    transform: rotate(180deg);
+}
+.listin-property-btn button{
+    color: #d8232a;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #d8232a;
+   padding: 8px 0px ;
+}
+.listin-property-btn button.get-info{
+    background-color: #d8232a;
+    color: #fff;
+    margin-top: 15px;
+}
+.apply-filter-bttn-sec button{
+    color: #d8232a;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #d8232a;
+   padding: 8px 0px ;
+}
+.content {
+    display: none;
+}
+.read-more i {
+    margin-left: 5px;
+}
+.border-design-sect-listing{
+    border: 1px solid;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.24),0 1px 4px 0 rgba(0,0,0,.12);
+}
+.border-design-sect-listing:hover{
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,.1),0 2px 8px 0 rgba(0,0,0,.12);
+}
+/* Event add */
+.Event-add-sec h4{
+    color:#14191e; 
+    font-size: 15px
+}
+.Event-add-sec p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+#related-property #tns1-iw {
+margin: 0px 0px 0px 0px !important;
+}
+.landmark-list{
+    padding: 0px;
+    margin: 0px;
+}
+.landmark-list li{
+    list-style: none !important;
+}
+
+
+.review-box {
+    /* border-bottom: 1px solid #ddd;
+    padding-bottom: 15px; */
+    margin-bottom: 15px;
+}
+.profile-icon {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+
+
+.filter-bar {
+    background-color:transparent; /* Red background */
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.filter-pill {
+    background: white;
+    border-radius: 50px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.new-dropdown-menu {
+    max-height: 200px !important;
+  
+}
+.dropdown-item input {
+    margin-right: 5px;
+}
+
+.text-dark-section {
+    color: #676A79 !important;
+}
+
+
+/*====================================      Add propery page   =================================== */
+#add-pr0perty-basic .form-select{
+    background-color: #fff !important;
+}
+.amenity-box {
+    border: 1px solid #ddd;
+    padding: 20px !important;
+    border-radius: 8px !important;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s !important;
+}
+.amenity-box i {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+.amenity-box:hover {
+    background-color: #e9ecef;
+}
+
+.company-details {
+    display: none;
+}
+
+/* BUTTON GROUP SPACE less */
+/* .btn-group > .btn, .btn-group-vertical > .btn{
+    flex:none !important;} */
+
+    .new-input-field-sec {            
+        padding: 0.5rem 1rem;
+        font-size: 0.9375rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: var(--bs-gray-700);
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid var(--bs-gray-400);
+        border-radius: 0.4rem;
+        -webkit-transition: border-color 0.15sease-in-out, -webkit-box-shadow 0.15sease-in-out;
+        transition: border-color 0.15sease-in-out, -webkit-box-shadow 0.15sease-in-out;
+        transition: border-color 0.15sease-in-out, box-shadow 0.15sease-in-out;
+        transition: border-color 0.15sease-in-out, box-shadow 0.15sease-in-out, -webkit-box-shadow 0.15sease-in-out;
+    }
+    .btn-check:checked + .amenity-box {
+        background-color: #007bff; /* Bootstrap primary color */
+        color: white;
+        border-color: #007bff;
+    }
+    
+    .btn-check:checked + .amenity-box i {
+        color: white;
+    }
+  .new-toogle-hover-sec:hover{
+    background-color:  #fff !important;
+    background-color: #676A79;
+    border: 1px solid  #ccc !important;
+    color: #14191e !important;
+  }
+  .new-toogle-hover-sec.show{
+    border: 1px solid  #ccc !important;
+  }
+    .new-style-section-fortitle {
+        cursor: default !important; /* Sets cursor to default */
+        gap: 5px;
+    }
+    #dropdown-section-all-addprop .choices__inner {
+        border: none;
+        padding: 0 !important;
+        background-color: transparent;
+    }
+    
+    .new-listing-bttn-section button{
+        padding: 5px 15px !important;
+    }
+  /* Ensure pagination dots appear on the image */
+#new-tinny-slider-section .tns-nav {
+    position: absolute !important; /* Ensure absolute positioning */
+    top: 94% !important; /* Adjust position */
+    left: 50%; /* Center the pagination */
+    transform: translateX(-50%); /* Fix centering */
+    z-index: 10; /* Ensure dots are above images */
+    display: flex;
+    gap: 5px; /* Spacing between dots */
+}
+
+/* Style the pagination dots */
+/* #new-tinny-slider-section .tns-nav button {
+    background-color: rgba(255, 255, 255, 0.8); 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+} */
+
+/* Active dot style */
+#new-tinny-slider-section .tns-nav .tns-nav-active {
+    background-color: #000; /* Highlight active dot */
+}
+
+    
+/* .tab-pane {
+    transition: opacity 0.3s ease-in-out;
+}
+.nav-pills .nav-link.active {
+    background-color: #007bff !important;
+    color: #fff !important;
+} */
+
+
+  .completion-alert {
+    margin: 15px 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .alert-content {
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .progress-container {
+    height: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    width: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .completion-low .progress-bar {
+    background-color: #dc3545;
+  }
+  
+  .completion-medium .progress-bar {
+    background-color: #ffc107;
+  }
+  
+  .completion-high .progress-bar {
+    background-color: #17a2b8;
+  }
+  
+  .completion-complete .progress-bar {
+    background-color: #28a745;
+  }
+  .alert-close-btn-sec{
+       font-size: 25px;
+    background: transparent !important;
+    border: none !important;
+    position: absolute;
+    right: 9px;
+    top: -4px;
+  }
+  input{
+    width: 100%;
+  }
+  @media(max-width:500px){
+    .new-listing-flex-coloumn-sec{
+     flex-direction:column;   
+     gap:8px
+}
+}
+.new-btnn-sec-cityselec{
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-gray-700);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid var(--bs-gray-400) !important;
+    border-radius: 0.4rem;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    align-items:anchor-center !important;
+}
+.new-btnn-sec-cityselec:hover{
+    border: 1px solid var(--bs-gray-400) !important;
+}
+#add-pr0perty-basic-new .dropdown-toggle::after{
+    font-size: 0.7rem !important;
+}
+.new-cusor-pointer-sec{
+    cursor: pointer;
+}
+#document-upload-kYC .dz-image{
+    border-radius: 0px !important;
+}
+.alert-bg-success{
+    background-color: #cef2e7 !important;
+}
+.property-deatil-start{
+    padding: 8px 10px;
+}
+
+/* property detail form  */
+
+.owner-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.owner-avatar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.owner-avatar img {
+    width: 120px;
+    height: auto;
+}
+
+.owner-info {
+    padding: 20px;
+}
+
+.view-phone-btn {
+    background-color: #4CD3A8;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 5px;
+}
+
+.properties-count {
+    color: #4CD3A8;
+    font-weight: bold;
+}
+
+.send-btn {
+    background-color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.enquiry-form {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.char-count {
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 767px) {
+    .owner-section, .enquiry-section {
+        margin-bottom: 20px;
+    }
+}
+
+/* property detail form end */
+
+.new-clr-set-featil{
+    color: #0f6fec;
+    font-weight: 500;
+}
+
