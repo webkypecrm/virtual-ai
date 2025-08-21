@@ -16,12 +16,12 @@ const BlogDetails = () => {
                   <img className="rounded" src={img1} alt="" />
                   <div className="mt-4">
                     {/* Tag */}
-                    <a
-                      href="#"
+                    <Link
+                      to="#"
                       className="badge bg-danger bg-opacity-10 text-danger mb-2 fw-bold"
                     >
                       Lifestyle
-                    </a>
+                    </Link>
                     {/* Title info */}
                     <h1 className="mb-2 h2">
                       New comment moderation and support features, including
@@ -31,9 +31,9 @@ const BlogDetails = () => {
                       <li className="nav-item">
                         <div className="nav-link">
                           by{" "}
-                          <a href="#" className="text-reset btn-link">
+                          <Link to="#" className="text-reset btn-link">
                             Louis Ferguson
-                          </a>
+                          </Link>
                         </div>
                       </li>
                       <li className="nav-item">
@@ -142,9 +142,9 @@ const BlogDetails = () => {
                           agreeable do be. Warrant private blushes removed an in
                           equally totally if.
                         </p>
-                        <a href="#" className="btn btn-light btn-sm">
+                        <Link to="#" className="btn btn-light btn-sm">
                           Reply
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     {/* Comment children level 3 */}
@@ -162,9 +162,9 @@ const BlogDetails = () => {
                           </span>
                         </div>
                         <p>Meant balls it if up doubt small purse. </p>
-                        <a href="#" className="btn btn-light btn-sm">
+                        <Link to="#" className="btn btn-light btn-sm">
                           Reply
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     {/* Comment level 2 */}
@@ -186,9 +186,9 @@ const BlogDetails = () => {
                           pleasure exertion if believed provided to. All led out
                           world this music while asked.
                         </p>
-                        <a href="#" className="btn btn-light btn-sm">
+                        <Link to="#" className="btn btn-light btn-sm">
                           Reply
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     {/* Comments END */}
@@ -262,19 +262,19 @@ const BlogDetails = () => {
               {/* Footer nav START */}
               <ul className="nav justify-content-center justify-content-md-start lh-1">
                 <li className="nav-item">
-                  <a className="nav-link" href="my-profile-about.html">
+                  <Link className="nav-link" to="my-profile-about.html">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" target="_blank" href="#">
+                  <Link className="nav-link" target="_blank" to="#">
                     Support{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="privacy-and-terms.html">
+                  <Link className="nav-link" to="privacy-and-terms.html">
                     Privacy &amp; terms
-                  </a>
+                  </Link>
                 </li>
               </ul>
               {/* Footer nav START */}
@@ -283,14 +283,14 @@ const BlogDetails = () => {
               {/* Copyright START */}
               <p className="text-center text-md-end mb-0">
                 ©2024{" "}
-                <a
+                <Link
                   className="text-body"
                   target="_blank"
-                  href="https://stackbros.in/"
+                  to="https://stackbros.in/"
                 >
                   {" "}
                   Stackbros{" "}
-                </a>
+                </Link>
                 All rights reserved.
               </p>
               {/* Copyright END */}

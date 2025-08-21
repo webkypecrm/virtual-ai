@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Navbar2 from "../../ReuseComp/Navbar2";
+import MainNav from "../../Main-Page/MainNav/MainNav";
 import { Link } from "react-router-dom";
 import event1 from "../../assets/images/events/01.jpg";
 import event2 from "../../assets/images/events/02.jpg";
@@ -11,13 +11,13 @@ import LeftSideBar2 from "../../ReuseComp/LeftSideBar2";
 const Events = () => {
   return (
     <Fragment>
-      <Navbar2 />
+      <MainNav />
       <main>
-        <div className="container">
+        <div className="container-fluid">
           <div className="row g-4">
            <LeftSideBar2/>
             <div className="col-md-8 col-lg-6 vstack gap-4">
-              <div
+              {/* <div
                 className="alert alert-success alert-dismissible fade show mb-0"
                 role="alert"
               >
@@ -36,7 +36,7 @@ const Events = () => {
                   data-bs-dismiss="alert"
                   aria-label="Close"
                 ></button>
-              </div>
+              </div> */}
               <div className="card h-100">
                 <div className="card-header d-sm-flex align-items-center text-center justify-content-sm-between border-0 pb-0">
                   <h1 className="h4 card-title">Discover Events</h1>

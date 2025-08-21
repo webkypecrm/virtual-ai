@@ -31,6 +31,11 @@ import GroupDetails from "./Components/Group/GroupDetails.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
 import Account2 from "./Components/Account/Account2.jsx";
 import BlogDetails from "./Components/Blog/BlogDetails.jsx";
+import Institute from "./Components/Institute/Institute.jsx";
+import InstituteDetails from "./Components/Institute/InstituteDetails.jsx";
+import Videos from "./Components/Videos/Videos.jsx";
+import VideosDetails from "./Components/Videos/VideosDetails.jsx";
+import CreateAvtar from "./Components/CreateAvtar/CreateAvtar.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -66,6 +71,11 @@ createRoot(document.getElementById("root")).render(
         <Route path="/help" element={<Help/>} />
         <Route path="/help-details" element={<HelpDetails/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/institute" element={<Institute/>} />
+        <Route path="/institute-details" element={<InstituteDetails/>} />
+        <Route path="/videos" element={<Videos/>} />
+        <Route path="/videos-details" element={<VideosDetails/>} />
+        <Route path="/create-avtar" element={<CreateAvtar/>} />
         
       </Routes>
     </BrowserRouter>

@@ -12,6 +12,7 @@ import property from "../../assets/images/post/property/layout2bhk.jpg";
 import { Link } from "react-router-dom";
 import Flatpickr from "react-flatpickr";
 import Dropzone from "dropzone";
+import { Stepper } from "react-form-stepper";
 
 const AddProperty = () => {
   const [selectedCategories, setSelectedCategories] = useState([]);
@@ -26,6 +27,7 @@ const AddProperty = () => {
   const [showFloor, setShowFloor] = useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
   const [showCards, setShowCards] = useState(false);
+    const [step, setStep] = useState(0);
 
   const handleCategoryChange = (value) => {
     setSelectedCategories((prev) =>
@@ -143,7 +145,7 @@ useEffect(() => {
       <MainNav />
       <main>
         <div className="container">
-          <Alert />
+          {/* <Alert /> */}
           <div className="row">
             {/* Sidenav START */}
             <div className="col-lg-3">
@@ -1840,6 +1842,7 @@ useEffect(() => {
                       </form>
                     </div>
                   </div>
+   
                 </div>
                 <div className="tab-pane fade" id="nav-setting-tab-2">
   <div className="card ">

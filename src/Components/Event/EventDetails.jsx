@@ -6,13 +6,15 @@ import logo2 from "../../assets/images/logo/02.svg"
 import logo4 from "../../assets/images/logo/04.svg"
 import logo6 from "../../assets/images/logo/06.svg"
 import { Link } from "react-router-dom";
+import MainNav from "../../Main-Page/MainNav/MainNav";
 
 const EventDetails = () => {
   return (
     <Fragment>
-      <Navbar2 />
+      {/* <Navbar2 /> */}
+      <MainNav/>
       <main>
-        <div className="container">
+        <div className="container-fluid">
           <div className="row g-4">
             <LeftSideBar2 />
             <div className="col-md-8 col-lg-9 vstack gap-4">
