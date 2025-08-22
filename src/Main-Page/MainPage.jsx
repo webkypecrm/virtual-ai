@@ -2,7 +2,8 @@ import React, { Fragment, useEffect, useState } from "react";
 import MainNav from "./MainNav/MainNav";
 // import Navbar2 from "../ReuseComp/Navbar2";
 import { Link } from "react-router-dom";
-import mainBg from "../assets/images/post/16by9/big/02.jpg";
+// import mainBg from "../caassa-mainBanner.webp";
+import mainBg from "../../src/assets/images/caassa-mainBanner.webp";
 import avtarBhumi from "../assets/images/avatar/bhumibazzar.jpg";
 import avtar12 from "../assets/images/avatar/12.jpg";
 import avtar5 from "../assets/images/avatar/05.jpg";
@@ -231,6 +232,7 @@ const MainPage = () => {
                     backgroundPosition: "center center",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
+                    height: "300px",
                   }}
                 >
                   <div className="bg-overlay bg-dark opacity-5" />
