@@ -343,7 +343,7 @@ const MainNav = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  <img className="avatar-img rounded-2" src={bbavtar} alt="" />
+                  <img className="avatar-img rounded-2" src="caassa-gajen.jpg" alt="" />
                 </Link>
                 <ul
                   className="dropdown-menu dropdown-animation dropdown-menu-end pt-3 small me-md-n3"

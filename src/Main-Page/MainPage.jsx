@@ -232,26 +232,10 @@ const MainPage = () => {
                     backgroundPosition: "center center",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    height: "300px",
+                    height: "325px",
                   }}
                 >
-                  <div className="bg-overlay bg-dark opacity-5" />
-                  <div className="p-4 p-sm-5 position-relative">
-                    <div className="d-flex align-items-center mb-3">
-                      {/* Avatar */}
-                      {/* <div class="avatar avatar-xxs me-2">
-              <img class="avatar-img rounded-circle" src="assets/images/avatar/01.jpg" alt="">
-            </div> */}
-                      {/* Avatar name */}
-                      {/* <h6 class="mb-0"> <Link class="text-white" to="#!"> Frances Guerrero </Link> </h6>
-            <span class="ms-1 ms-sm-3 small text-white"> 156.9K views</span>
-          </div>
-          <h1 class="text-white">How does the stock market work?</h1>
-          <p class="text-white">Suspicion neglected he resolving agreement perceived at an. </p>
-          <Link class="btn btn-primary stretched-link" to="video-details.html"> <i class="bi bi-file-earmark-play pe-1"></i>Watch now</Link> */}
-                    </div>
-                  </div>
-                  {/* Video main END */}
+
                 </div>
               </div>
 
@@ -271,11 +255,12 @@ const MainPage = () => {
                     <div className="card-image">
                       <img
                         className="card-img-top"
-                        src="assets/images/post/16by9/large/01.jpg"
+                        src="/caassa-shakti1.jpg"
                         alt=""
+                        style={{height: "230px",width: "100%",objectFit: "cover"}}
                       />
                       {/* Play icon */}
-                      <div className="card-element-hover position-absolute top-50 start-50 translate-middle">
+                      {/* <div className="card-element-hover position-absolute top-50 start-50 translate-middle">
                         <Link
                           className="icon-md bg-mode text-secondary rounded-circle"
                           to="video-details.html"
@@ -283,154 +268,43 @@ const MainPage = () => {
                           {" "}
                           <i className="bi bi-play-fill fs-5"> </i>{" "}
                         </Link>
-                      </div>
+                      </div> */}
                       {/* Duration */}
-                      <div className="position-absolute bottom-0 start-0 p-3 d-flex w-100">
+                      {/* <div className="position-absolute bottom-0 start-0 p-3 d-flex w-100">
                         <span className="bg-dark bg-opacity-50 px-2 rounded text-white small">
                           10:20
                         </span>
                         <span className="bg-dark bg-opacity-50 px-2 rounded text-white small ms-auto">
                           <i className="fa-solid fa-heart" />
                         </span>
-                      </div>
+                      </div> */}
                     </div>
                     {/* Video info */}
                     <div className="card-body">
                       {/* Video title  */}
-                      <h6>
+                      {/* <h6>
                         {" "}
                         <Link className="stretched-link" to="video-details.html">
                           {" "}
                           Should you become a web designer in 2022?{" "}
                         </Link>{" "}
-                      </h6>
-                      <div className="d-flex mt-3">
+                      </h6> */}
+                      <div className="d-flex">
                         {/* Avatar */}
-                        <div className="avatar avatar-xxs me-2">
+                        {/* <div className="avatar avatar-xxs me-2">
                           <img
                             className="avatar-img rounded-circle"
                             src="assets/images/avatar/01.jpg"
                             alt=""
                           />
-                        </div>
+                        </div> */}
                         {/* Avatar name */}
                         <div>
                           <h6 className="mb-0 lh-1">
                             {" "}
                             <Link to="#!"> Frances Guerrero </Link>{" "}
                           </h6>
-                          <span className="ms-auto small"> 156.9K views</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* Video END */}
-                </div>
-                <div className="col-sm-6 col-md-4 col-xl-3 col-xxl-2">
-                  {/* Video START */}
-                  <div className="card position-relative h-100">
-                    {/* Video image */}
-                    <div className="card-image">
-                      <div className="ratio ratio-16x9 card-img-top overflow-hidden">
-                        <iframe
-                          src="https://www.youtube.com/embed/CgEZNJSeofs"
-                          title="YouTube video"
-                          allowFullScreen=""
-                        />
-                      </div>
-                    </div>
-                    {/* Video info */}
-                    <div className="card-body position-relative">
-                      <h6>
-                        {" "}
-                        <Link className="stretched-link" to="video-details.html">
-                          {" "}
-                          Learn web development as an absolute beginner{" "}
-                        </Link>{" "}
-                      </h6>
-                      <div className="d-flex mt-3">
-                        {/* Avatar */}
-                        <div className="avatar avatar-xxs me-2">
-                          <img
-                            className="avatar-img rounded-circle"
-                            src="assets/images/avatar/02.jpg"
-                            alt=""
-                          />
-                        </div>
-                        {/* Avatar name */}
-                        <div>
-                          <h6 className="mb-0 lh-1">
-                            {" "}
-                            <Link to="#!">
-                              {" "}
-                              Lori Ferguson{" "}
-                              <i className="bi bi-patch-check-fill text-success small" />{" "}
-                            </Link>{" "}
-                          </h6>
-                          <span className="ms-auto small"> 458.4K views</span>
-                        </div>
-                      </div>
-                      {/* Video title  */}
-                    </div>
-                  </div>
-                  {/* Video END */}
-                </div>
-                <div className="col-sm-6 col-md-4 col-xl-3 col-xxl-2">
-                  {/* Video START */}
-                  <div className="card position-relative h-100">
-                    {/* Video image */}
-                    <div className="card-image">
-                      <img
-                        className="card-img-top"
-                        src="assets/images/post/16by9/large/02.jpg"
-                        alt=""
-                      />
-                      {/* Play icon */}
-                      <div className="card-element-hover position-absolute top-50 start-50 translate-middle">
-                        <Link
-                          className="icon-md bg-mode text-secondary rounded-circle"
-                          to="video-details.html"
-                        >
-                          {" "}
-                          <i className="bi bi-play-fill fs-5"> </i>{" "}
-                        </Link>
-                      </div>
-                      {/* Duration */}
-                      <div className="position-absolute bottom-0 start-0 p-3 d-flex w-100">
-                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small">
-                          03:40
-                        </span>
-                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small ms-auto">
-                          <i className="fa-solid fa-heart" />
-                        </span>
-                      </div>
-                    </div>
-                    {/* Video info */}
-                    <div className="card-body">
-                      {/* Video title  */}
-                      <h6>
-                        {" "}
-                        <Link className="stretched-link" to="video-details.html">
-                          {" "}
-                          Python tutorial - Python for beginners [full course]{" "}
-                        </Link>{" "}
-                      </h6>
-                      <div className="d-flex mt-3">
-                        {/* Avatar */}
-                        <div className="avatar avatar-xxs me-2">
-                          <img
-                            className="avatar-img rounded-circle"
-                            src="assets/images/avatar/03.jpg"
-                            alt=""
-                          />
-                        </div>
-                        {/* Avatar name */}
-                        <div>
-                          <h6 className="mb-0 lh-1">
-                            {" "}
-                            <Link to="#!"> Louis Crawford </Link>{" "}
-                          </h6>
-                          <span className="ms-auto small"> 235.4K views</span>
+                          {/* <span className="ms-auto small"> 156.9K views</span> */}
                         </div>
                       </div>
                     </div>
@@ -444,11 +318,12 @@ const MainPage = () => {
                     <div className="card-image">
                       <img
                         className="card-img-top"
-                        src="assets/images/post/16by9/large/03.jpg"
+                        src="/caassa-gajen.jpg"
                         alt=""
+                        style={{height: "230px",width: "100%",objectFit: "cover"}}
                       />
                       {/* Play icon */}
-                      <div className="card-element-hover position-absolute top-50 start-50 translate-middle">
+                      {/* <div className="card-element-hover position-absolute top-50 start-50 translate-middle">
                         <Link
                           className="icon-md bg-mode text-secondary rounded-circle"
                           to="video-details.html"
@@ -456,173 +331,303 @@ const MainPage = () => {
                           {" "}
                           <i className="bi bi-play-fill fs-5"> </i>{" "}
                         </Link>
-                      </div>
+                      </div> */}
                       {/* Duration */}
-                      <div className="position-absolute bottom-0 start-0 p-3 d-flex w-100">
-                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small">
-                          06:12
-                        </span>
-                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small ms-auto">
-                          <i className="fa-solid fa-heart" />
-                        </span>
-                      </div>
-                    </div>
-                    {/* Video info */}
-                    <div className="card-body">
-                      {/* Video title  */}
-                      <h6>
-                        {" "}
-                        <Link className="stretched-link" to="video-details.html">
-                          {" "}
-                          One of the greatest speeches ever | Steve Jobs{" "}
-                        </Link>{" "}
-                      </h6>
-                      <div className="d-flex mt-3">
-                        {/* Avatar */}
-                        <div className="avatar avatar-xxs me-2">
-                          <img
-                            className="avatar-img rounded-circle"
-                            src="assets/images/avatar/04.jpg"
-                            alt=""
-                          />
-                        </div>
-                        {/* Avatar name */}
-                        <div>
-                          <h6 className="mb-0 lh-1">
-                            {" "}
-                            <Link to="#!"> Larry Lawson </Link>{" "}
-                          </h6>
-                          <span className="ms-auto small"> 891.7K views</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* Video END */}
-                </div>
-                <div className="col-sm-6 col-md-4 col-xl-3 col-xxl-2">
-                  {/* Video START */}
-                  <div className="card position-relative h-100">
-                    {/* Video image */}
-                    <div className="card-image">
-                      <img
-                        className="card-img-top"
-                        src="assets/images/post/16by9/large/04.jpg"
-                        alt=""
-                      />
-                      {/* Play icon */}
-                      <div className="card-element-hover position-absolute top-50 start-50 translate-middle">
-                        <Link
-                          className="icon-md bg-mode text-secondary rounded-circle"
-                          to="video-details.html"
-                        >
-                          {" "}
-                          <i className="bi bi-play-fill fs-5"> </i>{" "}
-                        </Link>
-                      </div>
-                      {/* Duration */}
-                      <div className="position-absolute bottom-0 start-0 p-3 d-flex w-100">
-                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small">
-                          03:45
-                        </span>
-                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small ms-auto">
-                          <i className="fa-solid fa-heart" />
-                        </span>
-                      </div>
-                    </div>
-                    {/* Video info */}
-                    <div className="card-body">
-                      {/* Video title  */}
-                      <h6>
-                        {" "}
-                        <Link className="stretched-link" to="video-details.html">
-                          {" "}
-                          A trading platform - an easy start in trading{" "}
-                        </Link>{" "}
-                      </h6>
-                      <div className="d-flex mt-3">
-                        {/* Avatar */}
-                        <div className="avatar avatar-xxs me-2">
-                          <img
-                            className="avatar-img rounded-circle"
-                            src="assets/images/avatar/05.jpg"
-                            alt=""
-                          />
-                        </div>
-                        {/* Avatar name */}
-                        <div>
-                          <h6 className="mb-0 lh-1">
-                            {" "}
-                            <Link to="#!"> Joan Wallace </Link>{" "}
-                          </h6>
-                          <span className="ms-auto small"> 457.2K views</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* Video END */}
-                </div>
-                <div className="col-sm-6 col-md-4 col-xl-3 col-xxl-2">
-                  {/* Video START */}
-                  <div className="card position-relative h-100">
-                    {/* Video image */}
-                    <div className="card-image">
-                      <img
-                        className="card-img-top"
-                        src="assets/images/post/16by9/large/05.jpg"
-                        alt=""
-                      />
-                      {/* Play icon */}
-                      <div className="card-element-hover position-absolute top-50 start-50 translate-middle">
-                        <Link
-                          className="icon-md bg-mode text-secondary rounded-circle"
-                          to="video-details.html"
-                        >
-                          {" "}
-                          <i className="bi bi-play-fill fs-5"> </i>{" "}
-                        </Link>
-                      </div>
-                      {/* Duration */}
-                      <div className="position-absolute bottom-0 start-0 p-3 d-flex w-100">
+                      {/* <div className="position-absolute bottom-0 start-0 p-3 d-flex w-100">
                         <span className="bg-dark bg-opacity-50 px-2 rounded text-white small">
                           10:20
                         </span>
                         <span className="bg-dark bg-opacity-50 px-2 rounded text-white small ms-auto">
                           <i className="fa-solid fa-heart" />
                         </span>
-                      </div>
+                      </div> */}
                     </div>
                     {/* Video info */}
                     <div className="card-body">
                       {/* Video title  */}
-                      <h6>
+                      {/* <h6>
                         {" "}
                         <Link className="stretched-link" to="video-details.html">
                           {" "}
-                          8 shocking bitcoin crypto predictions for 2022{" "}
+                          Should you become a web designer in 2022?{" "}
                         </Link>{" "}
-                      </h6>
-                      <div className="d-flex mt-3">
+                      </h6> */}
+                      <div className="d-flex">
                         {/* Avatar */}
-                        <div className="avatar avatar-xxs me-2">
+                        {/* <div className="avatar avatar-xxs me-2">
                           <img
                             className="avatar-img rounded-circle"
-                            src="assets/images/avatar/07.jpg"
+                            src="assets/images/avatar/01.jpg"
                             alt=""
                           />
-                        </div>
+                        </div> */}
                         {/* Avatar name */}
                         <div>
                           <h6 className="mb-0 lh-1">
                             {" "}
-                            <Link to="#!"> Carolyn Ortiz </Link>{" "}
+                            <Link to="#!"> Frances Guerrero </Link>{" "}
                           </h6>
-                          <span className="ms-auto small"> 876.2K views</span>
+                          {/* <span className="ms-auto small"> 156.9K views</span> */}
                         </div>
                       </div>
                     </div>
                   </div>
                   {/* Video END */}
                 </div>
+                <div className="col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+                  {/* Video START */}
+                  <div className="card position-relative h-100">
+                    {/* Video image */}
+                    <div className="card-image">
+                      <img
+                        className="card-img-top"
+                        src="/caassa-anil.jpg"
+                        alt=""
+                        style={{height: "230px",width: "100%",objectFit: "cover"}}
+                      />
+                      {/* Play icon */}
+                      {/* <div className="card-element-hover position-absolute top-50 start-50 translate-middle">
+                        <Link
+                          className="icon-md bg-mode text-secondary rounded-circle"
+                          to="video-details.html"
+                        >
+                          {" "}
+                          <i className="bi bi-play-fill fs-5"> </i>{" "}
+                        </Link>
+                      </div> */}
+                      {/* Duration */}
+                      {/* <div className="position-absolute bottom-0 start-0 p-3 d-flex w-100">
+                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small">
+                          10:20
+                        </span>
+                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small ms-auto">
+                          <i className="fa-solid fa-heart" />
+                        </span>
+                      </div> */}
+                    </div>
+                    {/* Video info */}
+                    <div className="card-body">
+                      {/* Video title  */}
+                      {/* <h6>
+                        {" "}
+                        <Link className="stretched-link" to="video-details.html">
+                          {" "}
+                          Should you become a web designer in 2022?{" "}
+                        </Link>{" "}
+                      </h6> */}
+                      <div className="d-flex">
+                        {/* Avatar */}
+                        {/* <div className="avatar avatar-xxs me-2">
+                          <img
+                            className="avatar-img rounded-circle"
+                            src="assets/images/avatar/01.jpg"
+                            alt=""
+                          />
+                        </div> */}
+                        {/* Avatar name */}
+                        <div>
+                          <h6 className="mb-0 lh-1">
+                            {" "}
+                            <Link to="#!"> Frances Guerrero </Link>{" "}
+                          </h6>
+                          {/* <span className="ms-auto small"> 156.9K views</span> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Video END */}
+                </div>
+                 <div className="col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+                  {/* Video START */}
+                  <div className="card position-relative h-100">
+                    {/* Video image */}
+                    <div className="card-image">
+                      <img
+                        className="card-img-top"
+                        src="/caassa-mariam.jpg"
+                        alt=""
+                        style={{height: "230px",width: "100%",objectFit: "cover"}}
+                      />
+                      {/* Play icon */}
+                      {/* <div className="card-element-hover position-absolute top-50 start-50 translate-middle">
+                        <Link
+                          className="icon-md bg-mode text-secondary rounded-circle"
+                          to="video-details.html"
+                        >
+                          {" "}
+                          <i className="bi bi-play-fill fs-5"> </i>{" "}
+                        </Link>
+                      </div> */}
+                      {/* Duration */}
+                      {/* <div className="position-absolute bottom-0 start-0 p-3 d-flex w-100">
+                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small">
+                          10:20
+                        </span>
+                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small ms-auto">
+                          <i className="fa-solid fa-heart" />
+                        </span>
+                      </div> */}
+                    </div>
+                    {/* Video info */}
+                    <div className="card-body">
+                      {/* Video title  */}
+                      {/* <h6>
+                        {" "}
+                        <Link className="stretched-link" to="video-details.html">
+                          {" "}
+                          Should you become a web designer in 2022?{" "}
+                        </Link>{" "}
+                      </h6> */}
+                      <div className="d-flex">
+                        {/* Avatar */}
+                        {/* <div className="avatar avatar-xxs me-2">
+                          <img
+                            className="avatar-img rounded-circle"
+                            src="assets/images/avatar/01.jpg"
+                            alt=""
+                          />
+                        </div> */}
+                        {/* Avatar name */}
+                        <div>
+                          <h6 className="mb-0 lh-1">
+                            {" "}
+                            <Link to="#!"> Frances Guerrero </Link>{" "}
+                          </h6>
+                          {/* <span className="ms-auto small"> 156.9K views</span> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Video END */}
+                </div>
+                 <div className="col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+                  {/* Video START */}
+                  <div className="card position-relative h-100">
+                    {/* Video image */}
+                    <div className="card-image">
+                      <img
+                        className="card-img-top"
+                        src="/caassa-datta.jpg"
+                        alt=""
+                        style={{height: "230px",width: "100%",objectFit: "cover"}}
+                      />
+                      {/* Play icon */}
+                      {/* <div className="card-element-hover position-absolute top-50 start-50 translate-middle">
+                        <Link
+                          className="icon-md bg-mode text-secondary rounded-circle"
+                          to="video-details.html"
+                        >
+                          {" "}
+                          <i className="bi bi-play-fill fs-5"> </i>{" "}
+                        </Link>
+                      </div> */}
+                      {/* Duration */}
+                      {/* <div className="position-absolute bottom-0 start-0 p-3 d-flex w-100">
+                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small">
+                          10:20
+                        </span>
+                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small ms-auto">
+                          <i className="fa-solid fa-heart" />
+                        </span>
+                      </div> */}
+                    </div>
+                    {/* Video info */}
+                    <div className="card-body">
+                      {/* Video title  */}
+                      {/* <h6>
+                        {" "}
+                        <Link className="stretched-link" to="video-details.html">
+                          {" "}
+                          Should you become a web designer in 2022?{" "}
+                        </Link>{" "}
+                      </h6> */}
+                      <div className="d-flex">
+                        {/* Avatar */}
+                        {/* <div className="avatar avatar-xxs me-2">
+                          <img
+                            className="avatar-img rounded-circle"
+                            src="assets/images/avatar/01.jpg"
+                            alt=""
+                          />
+                        </div> */}
+                        {/* Avatar name */}
+                        <div>
+                          <h6 className="mb-0 lh-1">
+                            {" "}
+                            <Link to="#!"> Frances Guerrero </Link>{" "}
+                          </h6>
+                          {/* <span className="ms-auto small"> 156.9K views</span> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Video END */}
+                </div>
+                 <div className="col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+                  {/* Video START */}
+                  <div className="card position-relative h-100">
+                    {/* Video image */}
+                    <div className="card-image">
+                      <img
+                        className="card-img-top"
+                        src="/caassa-shakti2.jpg"
+                        alt=""
+                        style={{height: "230px",width: "100%",objectFit: "cover"}}
+                      />
+                      {/* Play icon */}
+                      {/* <div className="card-element-hover position-absolute top-50 start-50 translate-middle">
+                        <Link
+                          className="icon-md bg-mode text-secondary rounded-circle"
+                          to="video-details.html"
+                        >
+                          {" "}
+                          <i className="bi bi-play-fill fs-5"> </i>{" "}
+                        </Link>
+                      </div> */}
+                      {/* Duration */}
+                      {/* <div className="position-absolute bottom-0 start-0 p-3 d-flex w-100">
+                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small">
+                          10:20
+                        </span>
+                        <span className="bg-dark bg-opacity-50 px-2 rounded text-white small ms-auto">
+                          <i className="fa-solid fa-heart" />
+                        </span>
+                      </div> */}
+                    </div>
+                    {/* Video info */}
+                    <div className="card-body">
+                      {/* Video title  */}
+                      {/* <h6>
+                        {" "}
+                        <Link className="stretched-link" to="video-details.html">
+                          {" "}
+                          Should you become a web designer in 2022?{" "}
+                        </Link>{" "}
+                      </h6> */}
+                      <div className="d-flex">
+                        {/* Avatar */}
+                        {/* <div className="avatar avatar-xxs me-2">
+                          <img
+                            className="avatar-img rounded-circle"
+                            src="assets/images/avatar/01.jpg"
+                            alt=""
+                          />
+                        </div> */}
+                        {/* Avatar name */}
+                        <div>
+                          <h6 className="mb-0 lh-1">
+                            {" "}
+                            <Link to="#!"> Frances Guerrero </Link>{" "}
+                          </h6>
+                          {/* <span className="ms-auto small"> 156.9K views</span> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Video END */}
+                </div>
+              
+
               </div>
 
               {/* Official trailer START */}
@@ -637,30 +642,26 @@ const MainPage = () => {
                 </div>
                 <div className="col-sm-6 col-lg-4">
                   {/* Video START */}
-                  <div className="card position-relative h-100">
+                  <div className="card position-relative">
                     {/* Video image */}
                     <div className="card-image">
                       <div className="overflow-hidden fullscreen-video w-100">
                         {/* HTML video START */}
-                        <div className="player-wrapper card-img-top overflow-hidden">
-                          <video
-                            className="player-html"
-                            controls=""
-                            crossOrigin="anonymous"
-                            poster="assets/images/videos/poster.jpg"
-                          >
-                            <source
-                              src="assets/images/videos/video-feed.mp4"
-                              type="video/mp4"
-                            />
-                          </video>
-                        </div>
+                    <div className="player-wrapper card-img-top overflow-hidden">
+  <video
+    className="player-html"
+    controls
+    crossOrigin="anonymous"
+  >
+    <source src="/caassa-video1.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
                         {/* HTML video END */}
                       </div>
                     </div>
                     {/* Video info */}
-                    <div className="card-body position-relative">
-                      {/* Video title  */}
+                    {/* <div className="card-body position-relative">
                       <h6>
                         {" "}
                         <Link className="stretched-link" to="video-details.html">
@@ -669,7 +670,6 @@ const MainPage = () => {
                         </Link>{" "}
                       </h6>
                       <div className="d-flex mt-3">
-                        {/* Avatar */}
                         <div className="avatar avatar-xxs me-2">
                           <img
                             className="avatar-img rounded-circle"
@@ -677,7 +677,6 @@ const MainPage = () => {
                             alt=""
                           />
                         </div>
-                        {/* Avatar name */}
                         <div>
                           <h6 className="mb-0 lh-1">
                             {" "}
@@ -686,104 +685,110 @@ const MainPage = () => {
                           <span className="ms-auto small"> 145.2K views</span>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   {/* Video END */}
                 </div>
                 <div className="col-sm-6 col-lg-4">
                   {/* Video START */}
-                  <div className="card h-100">
+                  <div className="card position-relative">
                     {/* Video image */}
                     <div className="card-image">
-                      <div className="ratio ratio-16x9 card-img-top overflow-hidden">
-                        <iframe
-                          src="https://www.youtube.com/embed/7E45f46yDFI"
-                          title="YouTube video"
-                          allowFullScreen=""
-                        />
+                      <div className="overflow-hidden fullscreen-video w-100">
+                        {/* HTML video START */}
+                    <div className="player-wrapper card-img-top overflow-hidden">
+  <video
+    className="player-html"
+    controls
+    crossOrigin="anonymous"
+  >
+    <source src="/caassa-video2.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+                        {/* HTML video END */}
                       </div>
                     </div>
                     {/* Video info */}
-                    <div className="card-body position-relative">
-                      {/* Video title  */}
+                    {/* <div className="card-body position-relative">
                       <h6>
                         {" "}
                         <Link className="stretched-link" to="video-details.html">
                           {" "}
-                          15 useful apps for android smartphones users{" "}
-                        </Link>{" "}
-                      </h6>
-                      <div className="d-flex mt-2">
-                        {/* Avatar */}
-                        <div className="avatar avatar-xxs me-2">
-                          <img
-                            className="avatar-img rounded-circle"
-                            src="assets/images/avatar/02.jpg"
-                            alt=""
-                          />
-                        </div>
-                        {/* Avatar name */}
-                        <div>
-                          <h6 className="mb-0 lh-1">
-                            {" "}
-                            <Link to="#!">
-                              {" "}
-                              Lori Ferguson{" "}
-                              <i className="bi bi-patch-check-fill text-success small" />{" "}
-                            </Link>{" "}
-                          </h6>
-                          <span className="ms-auto small"> 235.8K views</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* Video END */}
-                </div>
-                <div className="col-sm-6 col-lg-4">
-                  {/* Video START */}
-                  <div className="card position-relative h-100">
-                    {/* Video image */}
-                    <div className="card-image">
-                      <div className="ratio ratio-16x9 card-img-top overflow-hidden">
-                        <iframe
-                          src="https://player.vimeo.com/video/225888984?h=65630c41c6"
-                          title="Vimeo video"
-                          allowFullScreen=""
-                        />
-                      </div>
-                    </div>
-                    {/* Video info */}
-                    <div className="card-body position-relative">
-                      {/* Video title  */}
-                      <h6>
-                        {" "}
-                        <Link className="stretched-link" to="video-details.html">
-                          {" "}
-                          The Red notice | Official teaser | Netflix{" "}
+                          New movie trailers (2021 - 2022) September{" "}
                         </Link>{" "}
                       </h6>
                       <div className="d-flex mt-3">
-                        {/* Avatar */}
                         <div className="avatar avatar-xxs me-2">
                           <img
                             className="avatar-img rounded-circle"
-                            src="assets/images/avatar/03.jpg"
+                            src="assets/images/avatar/01.jpg"
                             alt=""
                           />
                         </div>
-                        {/* Avatar name */}
                         <div>
                           <h6 className="mb-0 lh-1">
                             {" "}
-                            <Link to="#!"> Louis Crawford </Link>{" "}
+                            <Link to="#!"> Frances Guerrero </Link>{" "}
                           </h6>
-                          <span className="ms-auto small"> 785.2K views</span>
+                          <span className="ms-auto small"> 145.2K views</span>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   {/* Video END */}
                 </div>
+                <div className="col-sm-6 col-lg-4">
+                  {/* Video START */}
+                  <div className="card position-relative">
+                    {/* Video image */}
+                    <div className="card-image">
+                      <div className="overflow-hidden fullscreen-video w-100">
+                        {/* HTML video START */}
+                    <div className="player-wrapper card-img-top overflow-hidden">
+  <video
+    className="player-html"
+    controls
+    crossOrigin="anonymous"
+  >
+    <source src="/caassa-video4.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+                        {/* HTML video END */}
+                      </div>
+                    </div>
+                    {/* Video info */}
+                    {/* <div className="card-body position-relative">
+                      <h6>
+                        {" "}
+                        <Link className="stretched-link" to="video-details.html">
+                          {" "}
+                          New movie trailers (2021 - 2022) September{" "}
+                        </Link>{" "}
+                      </h6>
+                      <div className="d-flex mt-3">
+                        <div className="avatar avatar-xxs me-2">
+                          <img
+                            className="avatar-img rounded-circle"
+                            src="assets/images/avatar/01.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <h6 className="mb-0 lh-1">
+                            {" "}
+                            <Link to="#!"> Frances Guerrero </Link>{" "}
+                          </h6>
+                          <span className="ms-auto small"> 145.2K views</span>
+                        </div>
+                      </div>
+                    </div> */}
+                  </div>
+                  {/* Video END */}
+                </div>
+                
+
               </div>
               {/* Official trailer END */}
               <div className="row g-3 mb-4">
@@ -807,7 +812,7 @@ const MainPage = () => {
                         alt=""
                       />
                       {/* Play icon */}
-                      <div className="card-element-hover position-absolute top-50 start-50 translate-middle">
+                      {/* <div className="card-element-hover position-absolute top-50 start-50 translate-middle">
                         <Link
                           className="icon-md bg-mode text-secondary rounded-circle"
                           to="video-details.html"
@@ -816,7 +821,7 @@ const MainPage = () => {
                           <i className="bi bi-play-fill fs-5"> </i>{" "}
                         </Link>
                       </div>
-                      {/* Duration */}
+
                       <div className="position-absolute bottom-0 start-0 p-3 d-flex w-100">
                         <span className="bg-dark bg-opacity-50 px-2 rounded text-white small">
                           10:20
@@ -824,34 +829,34 @@ const MainPage = () => {
                         <span className="bg-dark bg-opacity-50 px-2 rounded text-white small ms-auto">
                           <i className="fa-solid fa-heart" />
                         </span>
-                      </div>
+                      </div> */}
                     </div>
                     {/* Video info */}
                     <div className="card-body">
                       {/* Video title  */}
-                      <h6>
+                      {/* <h6>
                         {" "}
                         <Link className="stretched-link" to="video-details.html">
                           {" "}
                           Should you become a web designer in 2022?{" "}
                         </Link>{" "}
-                      </h6>
+                      </h6> */}
                       <div className="d-flex mt-3">
                         {/* Avatar */}
-                        <div className="avatar avatar-xxs me-2">
+                        {/* <div className="avatar avatar-xxs me-2">
                           <img
                             className="avatar-img rounded-circle"
                             src="assets/images/avatar/01.jpg"
                             alt=""
                           />
-                        </div>
+                        </div> */}
                         {/* Avatar name */}
                         <div>
                           <h6 className="mb-0 lh-1">
                             {" "}
                             <Link to="#!"> Frances Guerrero </Link>{" "}
                           </h6>
-                          <span className="ms-auto small"> 156.9K views</span>
+                          {/* <span className="ms-auto small"> 156.9K views</span> */}
                         </div>
                       </div>
                     </div>
@@ -1163,7 +1168,7 @@ const MainPage = () => {
         </div>
         {/* </div> */}
       </main>
-      <MainChat />
+      {/* <MainChat /> */}
       <MainPageModal />
     </Fragment>
   );
