@@ -8,10 +8,10 @@ import "./assets/vendor/bootstrap-icons/bootstrap-icons.css";
 import "./assets/vendor/OverlayScrollbars-master/css/OverlayScrollbars.min.css";
 // import "./assets/vendor/tiny-slider/dist/tiny-slider.css";
 // import "./assets/vendor/choices.js/public/assets/styles/choices.min.css"
-import "./assets/vendor/glightbox-master/dist/css/glightbox.min.css";
-import "./assets/vendor/dropzone/dist/dropzone.css";
-import "./assets/vendor/flatpickr/dist/flatpickr.css";
-import "./assets/vendor/plyr/plyr.css";
+// import "./assets/vendor/glightbox-master/dist/css/glightbox.min.css";
+// import "./assets/vendor/dropzone/dist/dropzone.css";
+// import "./assets/vendor/flatpickr/dist/flatpickr.css";
+// import "./assets/vendor/plyr/plyr.css";
 import MainPage from "./Main-Page/MainPage";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
